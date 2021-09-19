@@ -1,0 +1,1237 @@
+html { font-size: 100%;
+    width: 100%;
+    overflow-x: hidden; /*This will avoid the
+    webpage to scroll horizontlally*/}
+    
+    /************************************
+    *********This concerns the CONTACT INFORMATION*/
+    
+    html a {
+        text-decoration: none;/* For Example */ 
+        font-style: none;
+        border-style: none;
+        color: black;
+    }
+    
+        
+    
+    #navbar {
+        margin-top: 0;
+        z-index: 5; /*This is to place the menu over any other things*/
+    }
+    
+    .navbar a:hover {
+        background: #ddd;
+        color: black;
+      }
+    
+    div.contact ul {
+        position: fixed;
+        top: 0px;
+        list-style-type: none; /* This is for eliminating any style such as points*/
+        width: 100%;
+        overflow: hidden;
+        float: left;
+        display: flex;
+        height: 30px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        background-color: white;
+        padding-left: 10px;
+    
+      
+    }
+    
+    /*this is in regard to the contact information*/
+    
+    
+    div.contact li a {
+        float: right;
+        padding: 0 auto;
+        margin-right: 30px;
+    }
+    
+    
+    #facebook {
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    
+    div.contact {
+        height: 6%;
+        width: 100%;
+        position: fixed;
+        top: 0%;
+        background-color: white;
+        padding: 0% 0% 0% 0% ;
+    }
+    
+    div.contact li a {
+        position: relative;
+    }
+    
+    #facebook {
+        margin-right: 10px;
+    
+    }
+
+/* To establish the width of the blocks*/
+.grid-item { width: 25%; }
+.grid-item--width2 { width: 50%; }
+    
+    div.contact li {
+        background-color: white;
+        display: inline;
+        font-family:'Acme';
+        text-align: center;
+        font-size: 120%;
+        margin: 5px ;
+        font-weight: bold;
+        }
+        
+     
+    div.contact li a img {
+        margin-bottom: 2%;
+        }
+
+
+div.main_card {
+    display: flex;
+    color: orange;
+    padding-left: 5%;
+}
+
+div.image1_1 p {
+    color: orange;
+}
+
+
+/* To change the over !!*/
+
+div.main_card  img.img-top_1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    }
+
+#principal {
+    display: none;
+}
+#img2 {
+    display: none;
+}
+#img3 {
+    display: none;
+}
+
+#img4 {
+    display: none;
+}
+
+#img5 {
+    display: none;
+}
+#img6 {
+    display: none;
+}
+#img7 {
+    display: none;
+}
+#img8 {
+    display: none;
+}
+#img9 {
+    display: none;
+}
+#img10 {
+    display: none;
+}
+#img11 {
+    display: none;
+}
+#img12 {
+    display: none;
+}
+#img13 {
+    display: none;
+}
+
+/*Contqiner trying to creting blocks*/
+.container {
+    width: 50%;
+    font-family:'Acme';
+    text-align: center;
+    font-size: 120%;
+    list-style-type: none;
+    display: left;
+    color: darkcyan;
+  }
+  ul.container{
+    width: 90%;
+    display: left;
+
+}
+li.container{
+/* li container, display inline to show the elements in rows*/
+display: left;
+float: right;
+color: orange;
+margin: 2px 2px 2px 2px;
+padding: 2px 2px 2px 2px;
+width: 33%;
+height: 10%;
+}
+li.container:after{
+content:"\A"; 
+white-space:pre; }
+
+
+/* Show image when hovering*/
+
+
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
+
+
+        
+/*formating for the introductory part*/
+
+div.introduction {
+    vertical-align: middle;
+    align-content: center;
+    display: grid;
+    line-height:45px;
+
+}
+
+div.subintro{
+    vertical-align: middle;
+    padding-bottom: 0.2%;
+    width: 100%;
+    height: 35%;
+    position: relative;
+    align-content: center;
+    display: flex;
+    height: 50%;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    top: 0px;
+    margin: 5 auto;
+
+}
+
+h1.introduction {
+    font-size: 200%;
+    font-family: 'Acme';
+    float: right;
+    text-align: center;
+    position: relative;
+    height: 20%;
+    margin-top: 50px;
+    margin-bottom: 1px;
+}
+
+div.introduction p {
+    display: grid;
+    width: 90%;
+    margin-left: 5%;
+    height: 100%;
+    font-size: 160%;
+    font-family: 'Acme';
+    text-align: left;
+    height: auto;
+}
+
+/*Changing the format of the first text*/
+
+.intextarticles2 {
+    font-family: 'Acme';
+    font-size: 120%;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 140%;
+    float: center; 
+    margin-left: 8%; /*To increse the size between two lines*/
+    }
+
+
+
+    /************************************
+    *********This concerns the MENU*/
+    
+      
+    div.menu ul {
+        position: relative; /*Div can overlap when the webpage becomes smaller*/
+        height: 8%; /*You need to addd percentage in some elements to preserve their 
+        size even when chqngin within browsers*/
+        list-style-type: none; /* This is for eliminating any style such as points*/
+        width: 100%;
+        margin-bottom: 0 auto;
+        overflow: hidden;
+        float: center;
+        padding-bottom: 0.20%;
+        padding-top: 1%;
+        background-color: white;
+        z-index: 2; /*This is what makes the menu to work while being fixed*/
+        
+    }
+    
+    div.header {
+        position: fixed;
+        top: 0%;
+        height: auto;
+        display: flex;
+        z-index: 5;
+    }
+    
+    
+    
+    div.menu {
+        height: 20%;
+        width: 100%;
+    }
+    
+    
+    div.menu ul li {
+        float: right;
+        padding-top: 1%;
+        background-color: white;
+    }
+    
+    
+    div.menu ul li a {
+        display: block; /*Makes the whole link area clickeable, and show it horizontally*/
+        text-align: center;
+        padding-top: 1%;
+        font-size: 105%;
+        top: 6%;
+        font-family: 'Acme';
+        color: black;
+        margin-right: 75px;
+        text-decoration: none; /*Everything related with thext has to be done on the
+        last object in which it was*/
+    }
+    
+    div.menu ul li a:hover { 
+        color:lightblue;
+      }
+    
+    
+    label {
+        margin: 0 20px 0 0;
+        font-size: 26px;
+        line-height: 70px;
+        display: none; /*This hides the element*/
+    }
+    
+    #toggle {
+        display: none;
+    }
+    
+    
+    
+    /********************************************************
+    ***************************************88
+    **********************8888This regards the language picker*/
+    
+    /* The container must be positioned relative: */
+    /*.custom-select {
+        position: sticky;
+        font-family: 'Acme';
+        float: right;
+        z-index: 5;
+        margin-right: 20px;
+        margin-top: 20px;
+      }
+    /* The container must be positioned relative: 
+      .custom-select select {
+        display: none; /*hide original SELECT element: 
+          
+    }
+      
+      .select-selected {
+        background-color:  white;
+      }
+      
+      /* Style the arrow inside the select element: 
+      .select-selected:after {
+        position: absolute;
+        content: "";
+        top: 14px;
+        right: 10px;
+        width: 0;
+        height: 0;
+        border: 6px solid transparent;
+        border-color: #fff transparent transparent transparent;
+      }
+      
+      /* Point the arrow upwards when the select box is open (active): 
+      .select-selected.select-arrow-active:after {
+        border-color: transparent transparent #fff transparent;
+        top: 7px;
+      }
+      
+      /* style the items (options), including the selected item:
+      .select-items div,.select-selected {
+        color: black; /*This will change the font's color
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+        cursor: Acme;
+      }
+      
+      /* Style items (options):   .select-items {
+        position: absolute;
+        background-color: white;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 99;
+      }
+      
+      /* Hide the items when the select box is closed: 
+      .select-hide {
+        display: none;
+      }
+      
+      .select-items div:hover, .same-as-selected {
+        background-color: rgba(39, 36, 36, 0.1);
+      } */
+    
+    /* This is in case you want to add a logotype div.menu ul li.logotype {
+        float: left;
+        overflow: hidden;
+        margin: 8px;
+    }
+    */
+    body {
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px 0px 0px; /*Each parent element needs to be set properly*/
+        margin: 0px 0px 0px 0px; /*This will make the webpage go from border to border*/
+    }
+    
+    div.main_image {
+        vertical-align: middle;
+        padding-bottom: 0.2%;
+        width: 100%;
+        height: 35%;
+    }
+    
+    img.main_image {
+        padding-top: 7%;
+        margin-bottom: 0 auto;
+        object-position: center;
+        max-width: 110%; /*These two linewill*/
+        height: auto; 
+        padding-bottom: 3%;
+    }
+    
+    /* img.logotype {
+        height: 150px; You need to set the size of all the elements on the wbpage
+        width: 150px;
+        max-width:100%;
+        height:auto;
+        object-fit: cover;
+    } */
+    
+    
+    
+    div.main {
+        z-index: 98;
+        margin-top: 30px; /* Add a top margin to avoid content overlay */
+      }
+    
+    
+    
+    /* div.language-picker__ { 
+         if JavaScript is enabled, hide the default form element
+        display: none;
+      } 
+    */
+    
+    /*********************************
+    ******************************
+    DIV for the first card*/
+      
+      div.first_card {
+        position: relative;
+        width: 90%;
+        align-content: center;
+        display: flex; /*This is what creates two columns*/
+        height: 60%;
+        padding: 5px 10px 10px 10px;
+        background-color:  white;
+        top: 20px;
+        padding-bottom: 5%;
+        margin: 0 auto;
+      }
+    
+      div.first_card_1 {
+        position: relative;
+        width: 90%;
+        align-content: center;
+        display: flex; /*This is what creates two columns*/
+        height: 60%;
+        padding: 5px 10px 10px 10px;
+        background-color:  white;
+        top: 20px;
+        padding-bottom: 12%;
+        margin: 0 auto;
+      }
+     
+    .intextarticles1 {
+        position: relative;
+        font-family: 'Acme';
+        font-size: 140%;
+        width: 80%;
+        margin-left: 10%;
+        display: grid;
+        line-height: 1.6;  /*To increse the size between two lines*/
+        }
+    
+    div.text {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        }
+    
+    
+    div.first_card h1 {
+        font-size: 200%;
+        font-family: 'Acme';
+        float: right;
+        text-align: center;
+        position: relative;
+        margin-top: 15%;
+        height: 20%;
+        margin-bottom: 1px;
+            
+    }    
+    
+    
+    div.first_card_1 h1 {
+        font-size: 200%;
+        font-family: 'Acme';
+        float: right;
+        text-align: center;
+        position: relative;
+        margin-top: 15%;
+        height: 20%;
+        margin-bottom: 1px;
+            
+    }    
+    
+  
+    
+    #slideshow img.image1 {
+        max-width:47%; /*This is to resize the images completely an accordingly*/
+        height:auto;
+        text-align: center;
+        padding: 2%;
+        padding-bottom: 2%;
+      }
+    
+      .main_content {
+        margin-top: 30px; /* Add a top margin to avoid content overlay */
+      }
+    
+      /*main image css content*/
+      
+      #slideshow img {
+          width: 80%;
+          display: flex;
+          height: 100%;
+          padding-bottom: 10px;
+          margin-bottom: 50px;
+      }
+    
+    
+      #slideshow { 
+        width: 50%; 
+        height: 550px; 
+        padding: 10px; 
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    #slideshow  div { 
+        position: absolute; 
+        top: 1%; 
+        left: 1%; 
+        right: 1%; 
+        bottom: 1%; 
+        height: 100%;
+    }
+        
+      
+          /*This centers everything but still has some restrictions,
+        othe thing you can do is to create a displya aling in block, and then text-align center,
+        other method to center stuffs*/
+    
+    
+    
+              /*This centers everything but still has some restrictions,
+        othe thing you can do is to create a displya aling in block, and then text-align center,
+        other method to center stuffs*/
+    
+    /************************************************************
+    ****************************SECOND CARDS*/
+    
+    div.second_card {
+        position: relative;
+        width: 90%;
+        align-content: center;
+        display: flex;
+        height: 50%;
+        padding: 10px 10px 10px 10px;
+        background-color: white;
+        top: 0px;
+        margin: 0 auto; 
+    }
+    
+    
+    .intextarticles2 {
+        position: relative;
+        font-family: "Simonetta";
+        font-size: 30px;
+        width: 40%;
+        margin: auto; /* This will automatically center horizontally and vertically the text*/
+        text-align: center;
+        padding-top: 50px; 
+        
+    }
+    
+    div.second_card h1 {
+        font-size: 200%;
+        font-family: 'Acme';
+        float: left;
+        text-align: center;
+        position: relative;
+        margin-top: 20%;
+        margin-right: 2%;
+        height: 20%;
+        }
+    
+    .image2 { 
+        
+            max-width:100%; /*This is to resize the images completely an accordingly*/
+            height:auto;
+            text-align: center;
+            padding: 5%;
+            padding-bottom: 2%;
+        }
+        
+    
+    
+    
+        div.final_card {
+            position: relative;
+            width: 90%;
+            align-content: center;
+            display: block;
+            height: auto;
+            padding: 10px 0px 0px 0px;
+            background-color:  white;
+            top: 20px;
+            margin: 0 auto; 
+        }
+    
+    div.text_left {
+        display: grid;
+        width: 40%;
+        height: 100%;
+    }
+    
+    div.final_card h1 {
+        margin: 2% auto;
+        margin-bottom: 0% ;
+    
+    }
+
+  div.text h1{
+      text-align: center;
+      font-family: 'Acme';
+  }
+    
+    /*Library for animations https://github.com/michalsnik/aos
+    */
+    
+    
+    div.text_final {
+        display: grid;
+        width: 100%;
+        margin-left: 0%;
+        height: 100%;
+        font-size: 120%;
+        font-family: 'Acme';
+        text-align: center;
+        height: auto;
+    
+    }
+    
+    
+    
+    
+    
+    /*Thats how you set animation in CSS, in this case fade in, it changes for the item you choose*/
+    @keyframes fadeIn {
+        from { opacity: 0;}
+        to{opacity: 1;}
+    }
+    
+    
+    /*You ca use id to target specific objects but it needs to be done in 
+    a very specific way*/
+    
+    
+    
+    
+    
+    
+    div.maprouter {
+        position: relative;
+        width: 88.5%;
+        display: inline-block;
+        align-content: center;
+        display: block;
+        text-align: center;
+        height: 40%;
+        padding: 10px 10px 10px 10px;
+        background-color: white;
+        height: 500px;
+        margin: 0 auto; 
+    }
+    
+    div.gmap_canvas iframe {
+        position: relative;
+        text-align: center;
+        float: center;
+        margin-top: 0;
+    }
+    
+    div.gmap_canvas h1 /*When having troubles to set an object or text
+    just create a new division*/
+        {  font-size: 150%;
+            font-family: 'Acme';
+            margin-left: 200%;
+            text-align: center;
+            padding: 10px auto;
+            
+            }
+    
+    
+    
+    /***************************
+    Button Information*****************/
+    
+    footer {
+        display: grid;
+        text-align: center;
+        object-position: center;
+        padding-bottom: 2%;
+    }
+    .button {
+        width: 100%;
+        float: center;
+        position: fixed;
+        bottom: 0px;
+        line-height: 35px;
+    }
+    
+    .button a {
+        text-decoration: none;
+        color: white;
+        
+    }
+    
+    .button button {
+        background-color: #d7fafa;
+        text-decoration: none;
+        font-family: 'Acme';
+        float: right;
+        font-size: 17px;
+        padding: 1% 2% ;
+        border: none;
+        height: 10%;
+        border-radius: 8px;
+        width: 15%;
+    }
+    
+    img.briquete {
+        height: 100%;
+    }
+    
+    div.nav {
+        position: fixed;
+        z-index: 5;
+        padding-bottom: 1%;
+    }
+    div.nav ul{
+        padding-bottom: 2%;
+    }
+    
+    div.contact  {
+        padding-bottom: 4%;
+        margin-bottom: 4%;
+    }
+    
+    
+    
+    @media only screen and (max-width: 1000px) { /*This one will onle affects screen sizes that are less than 600px*/
+    /*You need to use media queries to resize a webpage each time
+    */
+    
+    div.menu ul li {
+        padding-bottom: 3%;
+    }
+    
+    div.nav {
+        position: relative;
+        z-index: 5;
+        padding-top: 1%;
+        padding-bottom: 2%;
+    }
+    
+    
+     html{
+         width: 100%;
+         height: 100%;
+         overflow-x: hidden;
+     }
+     
+     /*Seems like you need to set both 
+     body and html for it to works properly*/
+     body{
+        width: 100%;
+        height: 100%; 
+        overflow-x: hidden;
+    }
+    
+      div.contact {
+       display: none;
+    }
+    
+    div.contact ul {
+        display: none;
+    }
+    
+    /*this is in regard to the contact information*/
+    div.contact li {
+        display: none;
+    }
+    
+    div.contact li a {
+        display: none;
+    }
+    
+    #facebook {
+        margin-right: 90px;
+        display: none;
+    }
+    
+    #navbar {
+        margin-top: 0;
+        z-index: 5; /*This is to place the menu over any other things*/
+    }
+    
+    
+    
+    /******************************8
+    ***********************
+    *********This is to create the hamburguer menu*/
+     
+     
+    header {
+        background-color: white;
+        padding-bottom: 5px;
+        top: 0px;
+        position: sticky; /*This will make the element to stick in
+        one single place*/
+    }
+    
+    label{
+        display: block;
+        cursor: Acme;
+        top: 0;
+        line-height: 30px;
+        font-size: 145%;
+        float: right;
+        padding-top: 2%;
+        position: sticky;
+        margin-left: 5px;
+    }
+    
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    
+    
+    
+    /**************************
+    *************************
+    This is to restyle the menu,
+    when it is open from
+    a smartphone*/
+    
+    .nav {
+        text-align: left;
+        height: 60%;
+        line-height: 25px; /*This determines the size of the lines inside an a or
+        an ul division*/
+        overflow-y: auto;
+        width: 100%;
+    }
+    
+    div.menu ul {
+        height: 40%;
+        margin: 0;
+        top: 4%;
+        list-style-type: none; /* This is for eliminating any style such as points*/
+        width: 100%;
+        padding-left: 10px;
+        margin-bottom: 0 auto;
+        display: grid; /*This makes the menu vertical*/
+        background-color: white;
+        z-index: 9999; /*This is what makes the menu to work while being fixed*/
+        
+        
+    }
+    
+    div.menu {
+        height: 20%;
+        width: 100%;
+        margin: 0 30px 0 0;
+    }
+    
+    
+    div.menu ul li {
+        float: center;
+        height: 25px;
+        background-color: white;
+    }
+    
+    
+    div.menu ul li a {
+        width: 100%;
+        display: inline-block; /*Makes the whole link area clickeable, and show it horizontally*/
+        text-align: left;
+        font-size: 100%;
+        vertical-align: text-bottom;
+        height: 25px;
+        margin: 0 0 0 0;
+        font-family: 'Acme';
+        padding-left: 0;
+        text-decoration: none; /*Everything related with thext has to be done on the
+        last object in which it was*/
+    }
+    
+    div.menu ul li a:hover {
+        color:lightblue;
+        height: 30px;
+      }
+    
+      
+    div.main_image {
+        padding-bottom: 0%;
+        margin-bottom: 0;
+        width:100%;
+        height: 20%;
+        padding-top: 1%;
+    }
+    
+    img.main_image {
+        padding-top: 0%;
+        margin-bottom: 0 0 0 0;
+        object-position: center;
+        width: 900px;
+        max-width: 300%; /*These two linewill*/
+        height: auto; 
+        padding-bottom: 0%;
+        margin-bottom: 0;
+    }
+    
+    
+    /*This is to restyle the
+    webpage's first card*/
+    
+    div.first_card {
+        position: relative;
+        width: 100%;
+        flex-direction: column-reverse;
+        display: inline-flex;
+        height: 600px;
+        padding: 0 0 0 0;
+        background-image: linear-gradient(#d7fafa);
+        overflow: hidden;
+        padding-bottom: 10px;
+      }
+    
+      div.first_card {
+        position: relative;
+        width: 100%;
+        flex-direction: column-reverse;
+        display: inline-flex;
+        padding: 0 0 0 0;
+        top: 5px;
+        background-image: linear-gradient(#d7fafa);
+        overflow: hidden;
+      }
+    
+    .intextarticles1 {
+        font-family: 'Acme';
+        font-size: 120%;
+        width: 80%;
+        text-align: left;
+        margin-bottom: 0;
+        margin-top: 0;
+        line-height: 140%;
+        float: center; 
+        margin-left: 8%; /*To increse the size between two lines*/
+        }
+    
+    
+        
+    
+    div.text {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        margin-left: 0%;
+        height: auto;
+        padding-left: 0;
+        }
+    
+    
+    
+    div.first_card h1 {
+        font-size: 170%;
+        font-family: 'Acme';
+        float: left;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        margin-top: 3%;
+        height: auto;
+        margin-bottom: 10px;
+    
+    }    
+    
+    div.cards_container {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+    
+    
+    #slideshow img.image1 {
+        max-width:80%; /*This is to resize the images completely an accordingly*/
+     /*This is to resize the images completely an accordingly*/
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+        padding-left: 7%;
+      /*Appareatnly this two together display block an position relative
+        will place the image under the las element*/
+    
+      }
+    
+    
+      .main_content {
+        margin-top: 0.5%; /* Add a top margin to avoid content overlay */
+      }
+    
+      /*main image css content*/
+      
+    
+    
+      #slideshow { 
+        width: 100%; 
+        height: 100%; 
+        padding: 1%; 
+    }
+    
+    #slideshow  div { 
+        position: absolute;  
+        left: 1%; 
+        right: 1%; 
+        bottom: 1%; 
+        height: 100%;
+    }
+    
+    div.main_content {
+        margin-top: 0.2%; /* Add a top margin to avoid content overlay */
+      }
+    
+    /****************************************************
+    RESTYLING SECOND IMAGE*/
+    
+    
+    div.second_card {
+        position: relative;
+        width: 100%;
+        align-content: center;
+        display: inline-block;
+        padding: 0 0 0 0;
+        background-image: linear-gradient(white);
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    
+    div.second_card h1 {   /*When having torubles use the one that already works*/
+        font-size: 170%;
+        font-family: 'Acme';
+        float: left;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        position: relative;
+        margin-top: 3%;
+        margin-bottom: 20px;
+    
+        }
+    
+        /*Should I creqte a single space between each one*/
+    .image2 { 
+        
+            max-width:80%; /*This is to resize the images completely an accordingly*/
+            height:auto;
+            padding-left: 5%;
+            padding-bottom: 10%;
+            margin: 1px auto;
+            display: block;
+            position: relative;
+            overflow: hidden;
+        }
+    
+    div.text_left {
+            display: inline-block;;
+            width: 100%;
+            height: auto; /*This will set the height of
+            the element regarind the parent div*/
+            line-height: 2%;
+        }
+    /*Whatever says deuxieme or premier is mean to adjust the 
+    different size of each card*/
+    div.deuxieme_text {
+        height: 240px;
+    }
+    
+    
+    
+    div.deuxieme_card {
+        height: 500px;
+    }
+    
+    
+    
+        div.cards_container {
+            margin-top: 1%; /*Space betwwen the main containers*/
+        }
+    
+    /****************************************8
+    ********************************RESTYLING
+                       MAP  */
+                       
+                       div.final_card {
+                            position: relative;
+                            width: 100%;
+                            align-content: center;
+                            display: flex;
+                            height: 60%;
+                            padding: 10px 0px 0px 0px;
+                            background-color:  white;
+                            top: 20px;
+                             margin: 0 auto; 
+                                    }
+                       
+                       
+                        
+           
+            div.maprouter {
+                position: relative;
+                width: 100%;
+                display: inline-block;
+                align-content: center;
+                display: block;
+                text-align: center;
+                height: 40%;
+                background-color: white;
+                height: 300px;
+                padding: 0 0 0 0;
+              margin: 0 auto; 
+                padding-top: 4%;
+            }
+            
+            div.gmap_canvas iframe {
+                position: relative;
+                text-align: center;
+                float: center;
+                width: 70%; /*Helps to se the image properly*/
+            }
+            
+    
+                
+            div.text_final {
+                display: block;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                font-family: 'Acme';
+                
+            }
+    
+    div.text_final p {
+                width: 90%;
+                margin-left: 4%;
+                
+            }
+    
+                footer {
+                    display: grid;
+                    text-align: center;
+                    object-position: center;
+                    padding-bottom: 15%;
+                }
+                .button {
+                    width: 100%;
+                    position: fixed;
+                    bottom: 0px;
+                    
+            
+                }
+                
+                .button a {
+                    text-decoration: none;
+                    color: white;
+                    
+                }
+                
+                .button button {
+                    background-color: #d7fafa;
+                    text-decoration: none;
+                    font-family: 'Acme';
+                    font-size: 18px;
+                    padding: 1% 2% ;
+                    float: none;
+                    border: none;
+                    height: 20%;
+                    width: 47%;
+                    border-radius: 8px;
+                }
+    
+    .button i {
+        font-size:18px;
+         padding-bottom: 1.5%;
+         padding-top: 2%;
+    }
